@@ -27,7 +27,7 @@ def red_green(amount):
 #header_portfolio_profit_loss.grid(row=10, column=9, sticky=N+S+E+W)
 
 def lookup():
-    api_request = requests.get("https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=ea0e2a22-3249-45ac-8e22-2ded447cc95c&start=1&limit=5000&convert=USD")
+    api_request = requests.get("https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=<YOUR_KEY_HERE>&start=1&limit=5000&convert=USD")
     api = json.loads(api_request.content)
     row_count = 0
     column_count = 0
@@ -127,7 +127,7 @@ def lookup():
             "price_paid_per": 0.29
         },
         {
-            "sym": "ALGO",
+            "sym": "GNO",
             "amount_owned": 18,
             "price_paid_per": 11.45
         },
