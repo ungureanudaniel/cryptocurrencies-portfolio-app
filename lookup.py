@@ -74,67 +74,67 @@ def lookup():
     # header_9.grid(row=0, column=9, sticky=N + S + E + W)
     # ----------------------------------Header items end----------------------------------------
 
-    # ------------My portfolio start----------------
+    # ------------My portfolio start - ADD YOUR COINS HERE----------------
     my_portfolio = [
         {
             "sym": "BTC",
-            "amount_owned": 0.449,
-            "price_paid_per": 9350
+            "amount_owned": 0,
+            "price_paid_per": 0
         },
         {
             "sym": "ETH",
-            "amount_owned": 5.3375,
-            "price_paid_per": 127.72
+            "amount_owned": 0,
+            "price_paid_per": 0
         },
         {
             "sym": "XRP",
-            "amount_owned": 4500,
-            "price_paid_per": 0.3
+            "amount_owned": 0,
+            "price_paid_per": 0
         },
         {
             "sym": "LTC",
-            "amount_owned": 11.394,
-            "price_paid_per": 41.11
+            "amount_owned": 0,
+            "price_paid_per": 0
         },
         {
             "sym": "GNO",
-            "amount_owned": 18,
-            "price_paid_per": 13.37
+            "amount_owned": 0,
+            "price_paid_per": 0
         },
         {
             "sym": "XTZ",
-            "amount_owned": 550,
-            "price_paid_per": 2
+            "amount_owned": 0,
+            "price_paid_per": 0
         },
         {
             "sym": "NANO",
-            "amount_owned": 100,
-            "price_paid_per": 0.9347
+            "amount_owned": 0,
+            "price_paid_per": 0
         },
         {
             "sym": "BNB",
-            "amount_owned": 8.04420898,
-            "price_paid_per": 17
+            "amount_owned": 0,
+            "price_paid_per": 0
         },
         {
             "sym": "ATOM",
-            "amount_owned": 100,
-            "price_paid_per": 2.35101
+            "amount_owned": 0,
+            "price_paid_per": 0
         },
         {
             "sym": "ALGO",
-            "amount_owned": 450.011,
-            "price_paid_per": 0.29
+            "amount_owned": 0,
+            "price_paid_per": 0
         },
         {
             "sym": "GNO",
-            "amount_owned": 18,
-            "price_paid_per": 11.45
+            "amount_owned": 0,
+            "price_paid_per": 0
         },
         {
             "sym": "BAT",
-            "amount_owned": 6617,
-            "price_paid_per": 0.19
+            "amount_owned": 0,
+            "price_paid_per": 0
         }
     ]
     # ------------My portfolio end----------------
